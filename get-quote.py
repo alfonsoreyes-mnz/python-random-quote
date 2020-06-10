@@ -10,7 +10,7 @@ print(entries)
 def main():
   print("Keep it logically awesome.")
 
-  f = open("python-random-quote/quotes.txt","r") #changed because of python doesn't find file
+  f = open("quotes.txt","r") #changed because of python doesn't find file
   quotes = f.readlines()
   f.close()
 
