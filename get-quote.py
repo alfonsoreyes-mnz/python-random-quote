@@ -1,5 +1,6 @@
 """
 #see what is inside of folder
+#linea agregada desde la consola
 import os
 
 entries = os.listdir('python-random-quote/')
